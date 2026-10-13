@@ -525,7 +525,7 @@
       </div>
       <div class="intro">Each item on the table carries a wish. Which one will Cleo reach for?</div>
       <div style="display:inline-block; margin-top:14px; border: 1.5px solid #a07820; padding: 8px 22px; background: rgba(160,120,32,0.06); border-radius:2px;">
-        <div style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans KR', sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#a07820; font-weight:700;">Submissions close Saturday, October 24 &nbsp;·&nbsp; 10am PT</div>
+        <div style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans KR', sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#a07820; font-weight:700;">Submissions close Saturday, October 17 &nbsp;·&nbsp; 2pm ET</div>
       </div>
     </div>
 
@@ -698,7 +698,7 @@
     <div class="success-screen" id="closedScreen">
       <div class="success-emoji">⏰</div>
       <div class="success-title">Predictions Are Closed</div>
-      <div class="success-sub">Submissions closed Saturday, October 24 at 10am PT/1pm ET. See you at the 돌잔치!</div>
+      <div class="success-sub">Submissions closed Saturday, October 17 at 2pm ET.</div>
     </div>
 
     <!-- Success screen -->
@@ -732,8 +732,8 @@
   // ── REPLACE THIS WITH YOUR GOOGLE APPS SCRIPT DEPLOYMENT URL ──
   const SHEET_URL = 'https://script.google.com/macros/s/AKfycbztL_goyApThC9cFFF6K6ODb42t7NROE4UVobcz_wdhkOZMbHyJVsgMPN_qtRZpJoilpQ/exec';
 
-  // Submissions close Saturday, Oct 24, 2026 at 10:00am PT (1:00pm ET)
-  const DEADLINE = new Date('2026-10-24T10:00:00-07:00');
+  // Submissions close Saturday, Oct 17, 2026 at 2:00PM ET 
+  const DEADLINE = new Date('2026-10-17T14:00:00-16:00');
   function isClosed() { return Date.now() >= DEADLINE.getTime(); }
   function showClosed() {
     document.getElementById('mainForm').style.display = 'none';
